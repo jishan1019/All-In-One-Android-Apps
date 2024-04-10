@@ -10,6 +10,42 @@
     >
 
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#C60000"
+        android:text="Text To Spetch"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>
+
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#C60000"
+        android:background="@drawable/border"
+        android:padding="20dp"
+        android:text="Bangladesh forms the sovereign part of the historic and ethnolinguistic region of Bengal, which was dits after 1204 heralded the sultependent Bengal Sultanate and a wealthy Mughal Bengal transformed the region "
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>
+
+
+    <Button
+        android:id="@+id/plaBtn"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:textSize="14sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/border"
+
+        android:text="Play"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
 
 
 </LinearLayout>
