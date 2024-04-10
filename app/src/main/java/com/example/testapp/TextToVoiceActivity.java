@@ -30,11 +30,15 @@ public class TextToVoiceActivity extends AppCompatActivity {
             }
         });
 
+
+
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String text = textView.getText().toString();
                 textToSpeech.speak(text , TextToSpeech.QUEUE_FLUSH , null, null);
+
+
             }
         });
 

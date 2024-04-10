@@ -20,9 +20,10 @@
         android:textSize="20sp"/>
 
     <Button
+        android:id="@+id/btnAlertDilogActivity"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:text="Text To Voice"
+        android:text="Alert Dialog"
         android:textColor="@color/white"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
