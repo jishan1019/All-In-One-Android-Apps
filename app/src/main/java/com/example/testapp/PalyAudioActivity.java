@@ -27,6 +27,9 @@ public class PalyAudioActivity extends AppCompatActivity {
         offlineAudioBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                if (mediaPlayer !=null) mediaPlayer.release();
+
                 mediaPlayer = MediaPlayer.create(PalyAudioActivity.this , R.raw.cat_audio);
                 mediaPlayer.start();
             }
@@ -36,6 +39,10 @@ public class PalyAudioActivity extends AppCompatActivity {
         onlineAudioBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                if (mediaPlayer !=null) mediaPlayer.release();
+
+
                 mediaPlayer = new MediaPlayer();
                 try {
                     mediaPlayer.setDataSource("https://appslabbd.buzz/test/cat_audio.mp3");
